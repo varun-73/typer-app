@@ -10,33 +10,10 @@ const difficultySelect = document.getElementById('difficulty');
 
 // List of words for game
 const words = [
-  'sigh','tense','airplane','ball','pies','juice','warlike','bad','flashcard','formation','Frequently','vocabulary','mastering','Chemistry','Resources','Maharashtra','Commerce',
-  'north','dependent','steer', 'silver','highfalutin','superficial','quince','eight','feeble','understand','xanthenes','Cookies','Dictionary','opportunity','remarkably',
-  'admit','drag','Between','Radical','Sixteen','Webcast','strengthen','communication','learning','effectively','remember','squizzing','bemuzzled','buckjumps','scuzzball',
-  'loving','welcome','javascript','python','hakerrank','introduction','neetcode','discord','script','readme','search','embezzled','unpuzzled','jumboizes','zigzagged','maximized',
-  'quickbeam',Sure,
-apple, chair, table, light, house, green, flower, laptop, window, smile, river, dance, rabbit, garden, sunset, pencil, monkey, coffee, cloud, pillow, kitten, camera,
-  forest, soccer, bookshelf, orange, school, castle, guitar, ocean, jacket, cheese, cookie, planet, dragon, keyboard, cereal, rocket, circus, dragon, turtle, basket, 
-  jungle, blanket, trumpet, dolphin, bridge, pirate, shadow, monkey, basket, puppet, hammer, bottle, artist, whistle, temple, compass, donkey, engine, scarf, violin,
-  ladder, robot, castle, donkey, island, galaxy, wizard, rocket, whisper, basket, pirate, kitten, tunnel, anchor, lantern, mirror, wallet, galaxy, coconut, ladder, dragon,
-  castle, whisper, kitten, garden, puzzle, dragon, cherry, forest, elephant, flower, ticket, candle, silver, mouse, piano, monkey, island, garden, puzzle, whisper, planet,
-  pirate, rocket, galaxy, castle, monkey, basket, elephant, kitten, robot, dragon, puzzle, kitten, planet, forest, garden, rocket, castle, island, basket, monkey, planet,
-  whisper, kitten, galaxy, robot, elephant, puzzle, garden, monkey, basket, pirate, planet, castle, kitten, whisper, forest, island, rocket, galaxy, elephant, robot, monkey,
-  basket, kitten, planet, whisper, garden, castle, pirate, island, forest, elephant, rocket, galaxy, kitten, robot, monkey, basket, whisper, planet, pirate, garden, castle,
-  island, kitten, forest, elephant, rocket, monkey, basket, galaxy, robot, whisper, planet, pirate, garden, castle, kitten, island, elephant, monkey, basket, forest, robot,
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
-  garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, 
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
-  garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot,
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
-  garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot,
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten
-  , garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot,
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
-  garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, 
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
-  garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot,
-  galaxy, whisper, planet, rocket, pirate, castle, kitten, garden, island, elephant, monkey, basket, forest, robot, galaxy, whisper, planet, rocket, pirate, castle, kitten,
+  'sigh','tense','airplane','ball','pies','juice','warlike','bad','flashcard','formation','Frequently','vocabulary','mastering','Chemistry','Resources','Maharashtra','Commerce', 'north','dependent','steer', 'silver','highfalutin','superficial','quince','eight','feeble','understand','xanthenes','Cookies','Dictionary','opportunity','remarkably', 'admit','drag','Between','Radical','Sixteen','Webcast','strengthen','communication','learning','effectively','remember','squizzing','bemuzzled','buckjumps','scuzzball',
+  'loving','welcome','javascript','python','hakerrank','introduction','neetcode','discord','script','readme','search','embezzled','unpuzzled','jumboizes','zigzagged','maximized',  'quickbeam','apple', 'chair', 'table', 'light', 'house', 'green', 'flower', 'laptop', 'window', 'smile', 'river', 'dance', 'rabbit', 'garden', 'sunset', 'pencil', 'monkey', 'coffee', 'cloud', 'pillow', 'kitten', 'camera', 'forest', 'soccer', 'bookshelf', 'orange', 'school', 'castle', 'guitar', 'ocean', 'jacket', 'cheese', 'cookie','planet', 'dragon', 'keyboard', 'cereal', 'rocket', 'circus', 'turtle', 'basket', 'jungle', 'blanket', 'trumpet', 'dolphin', 'bridge', 'pirate', 'shadow', 'puppet', 
+  'hammer', 'bottle', 'artist', 'whistle', 'temple', 'compass', 'donkey', 'engine', 'scarf', 'violin', 'ladder', 'robot', 'island', 'galaxy', 'wizard', 'whisper', 'tunnel',
+  'anchor', 'lantern', 'mirror', 'wallet', 'coconut', 'puzzle', 'cherry', 'elephant', 'ticket', 'candle', 'silver', 'mouse', 'piano'
 ];
 
 // Init word
